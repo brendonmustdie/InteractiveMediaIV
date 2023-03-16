@@ -1,17 +1,17 @@
 // Production nav
 // const navigationData = [
- //   { title: "Home", link: "https://brendonmustdie.github.io/DVWebsite/index.html" },
-   // { title: "Data Visualization", link: "https://brendonmustdie.github.io/DVWebsite/Pages/data.html" },
-   // { title: "Blog posts", link: "https://brendonmustdie.github.io/DVWebsite/Blogs/blog.html" },
-   // { title: "Design Section", link: "https://brendonmustdie.github.io/DVWebsite/Pages/designpage.html" },
-   // { title: "Data Art", link: "https://brendonmustdie.github.io/DVWebsite/Pages/dataart.html" },
+ //   { title: "Home", link: "https://brendonmustdie.github.io/InteractiveMediaIV/index.html" },
+   // { title: "Blog posts", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Blogs/blog-posts.html" },
+   // { title: "OCD simulator", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Pages/ocd-sim.html" },
+   // { title: "Design Page", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Pages/design.html"}
    // ];
    
-   // // Development nav
+// Development nav
  const navigationData = [
    { title: "Home", link: "../index.html" },
    { title: "Blog posts", link: "../Blogs/blog-posts.html" },
    { title: "OCD simulator", link: "../Pages/ocd-sim.html" },
+   { title: "Design Page", link: "../Pages/design.html" },
 ];
    
    const navigations = document.getElementsByClassName("navigation");
