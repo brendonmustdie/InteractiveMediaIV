@@ -1,18 +1,18 @@
 // Production nav
-// const navigationData = [
- //   { title: "Home", link: "https://brendonmustdie.github.io/InteractiveMediaIV/index.html" },
-   // { title: "Blog posts", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Blogs/blog-posts.html" },
-   // { title: "OCD simulator", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Pages/ocd-sim.html" },
-   // { title: "Design Page", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Pages/design.html"}
-   // ];
+ const navigationData = [
+   { title: "Home", link: "https://brendonmustdie.github.io/InteractiveMediaIV/index.html" },
+    { title: "Blog posts", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Blogs/blog-posts.html" },
+   { title: "Design Page", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Pages/design.html"}
+     { title: "Obsess", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Pages/ocd-sim.html" },
+    ];
    
 // Development nav
- const navigationData = [
-   { title: "Home", link: "../index.html" },
-   { title: "Blog posts", link: "../Blogs/blog-posts.html" },
-   { title: "OCD simulator", link: "../Pages/ocd-sim.html" },
-   { title: "Design Page", link: "../Pages/design.html" },
-];
+// const navigationData = [
+//   { title: "Home", link: "../index.html" },
+ //  { title: "Blog posts", link: "../Blogs/blog-posts.html" },
+ //  { title: "Design Page", link: "../Pages/design.html" },
+ //  { title: "Obsess", link: "../Pages/ocd-sim.html" },
+// ];
    
    const navigations = document.getElementsByClassName("navigation");
    

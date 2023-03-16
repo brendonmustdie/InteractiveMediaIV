@@ -3,10 +3,42 @@ body {
     margin: 0px;
     font-size: 20px;
     min-height: 130vh;
-    font-family: 'Inter', sans-serif;
-  color: black;
-   
+    font-family: 'PT Serif', serif;
+  color: white;
+   background-image: url(Images/smarties.jpg);
+   background-size: cover;
   }
+
+  h1{
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h2{
+    font-size: 31,7px;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+#title-text{
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+#obsess-button{
+  background-color: #D56F5F;
+  text-decoration: none;
+  color: #f1f1f1;
+  size: 21,2px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 100px;
+  border-radius: 25px;
+  font-family: 'PT Serif', serif;
+}
+
 
   .overlay{
     padding: 0px;
@@ -40,22 +72,24 @@ body {
     max-width: 800px;
     width: 100%;
     height: 100%;
-    margin: 0px auto;
+    margin-left: 150px;
     padding: 0px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
     z-index: 9;
+    align-self: left;
   }
   
   #main-menu li {
     list-style-type: none;
     font-size: 2rem;
+    margin: 20px;
   }
   
   #main-menu a {
-    color: black;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1.8rem;
     text-decoration: none;
   }
   
@@ -102,7 +136,7 @@ body {
   }
   
   #hamburger-menu h3 {
-    color: black;
+    color: white;
     font-size: 2.2rem;
   }
   
@@ -116,7 +150,7 @@ body {
   }
   
   #hamburger-menu a {
-    color: black;
+    color: white;
     font-size: 1.3rem;
     text-decoration: none;
   }
