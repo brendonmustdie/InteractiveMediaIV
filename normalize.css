@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 15px;
     min-height: 130vh;
     font-family: 'PT Serif', serif;
    background-size: cover;
@@ -14,7 +14,7 @@ body {
   }
 
   .article h2{
-    font-size: 15px;
+    font-size: 30px;
     margin-bottom: 0;
   }
 
@@ -43,7 +43,12 @@ body {
   h2{
     font-size: 31,7px;
     margin: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+  h3{
+    font-size: 20px;
+    margin: 0px;
   }
 
 #title-text{
