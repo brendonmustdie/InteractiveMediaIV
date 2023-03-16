@@ -60,15 +60,15 @@ body {
   }
 
 
-  #week3 {
+  #week3, #home-des {
     background-image: url(Images/ricecakes.webp);
   }
 
-  #week4 {
+  #week4, #art-des{
     background-image: url(Images/allsorts.webp) ;
   }
 
-  #week5 {
+  #week5, #blog-des{
     background-image: url(Images/Macroons.webp);
     background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
@@ -109,9 +109,6 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
   }
-
-
-
 
 
   
