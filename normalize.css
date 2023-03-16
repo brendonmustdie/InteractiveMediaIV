@@ -5,6 +5,22 @@ body {
     min-height: 130vh;
     font-family: 'PT Serif', serif;
    background-size: cover;
+   background-color: #f1f1f1;
+  }
+
+  .article{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .article h2{
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  .date {
+    font-size: 10px;
+
   }
 
   .main-body{
@@ -12,9 +28,10 @@ body {
     background-image: url(Images/smarties.jpg);
   }
 
-  .seconday-body{
+  #secondary-body{
     color: #D56F5F;
     background-color: #f1f1f1;
+    align-items: center;
   }
 
   h1{
