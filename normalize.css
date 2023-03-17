@@ -149,8 +149,9 @@ body {
 
   .main-body{
     color: white;
-    background-image: url(Images/pink.webp);
-    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    background-image: url(Images/pinkhearts.jpg);
+   
   }
 
   #secondary-body{
