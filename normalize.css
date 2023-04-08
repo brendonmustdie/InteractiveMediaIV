@@ -3,7 +3,7 @@ body {
     margin: 0px;
     font-size: 15px;
     min-height: 130vh;
-    font-family: 'PT Serif', serif;
+  font-family: 'Merriweather Sans', sans-serif;;
    background-size: cover;
    background-color: #F6F1ED;
   }
@@ -15,6 +15,7 @@ body {
 
   #tertiary-body h1{
     padding-left: 150px;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   .grid-container {
@@ -128,11 +129,13 @@ body {
     padding-right: 20%;
     padding-top: 5%;
     padding-bottom: 5%;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   .article h2{
     font-size: 30px;
     margin-bottom: 0;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   #tertiary-body h1{
@@ -140,6 +143,7 @@ body {
     color: #F6F1ED;
     padding-top: 100px;
     padding-bottom: 100px;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   .date {
@@ -164,17 +168,20 @@ body {
     font-size: 80px;
     margin: 0px;
     padding: 0px;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   h2{
     font-size: 31,7px;
     margin: 0px;
     margin-bottom: 40px;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   h3{
     font-size: 20px;
     margin: 0px;
+    text-shadow: 2px 2px 4px #000000;
   }
 
 #title-text{
@@ -193,6 +200,7 @@ body {
   margin-top: 100px;
   border-radius: 25px;
   font-family: 'PT Serif', serif;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 

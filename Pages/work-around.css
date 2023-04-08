@@ -1,15 +1,155 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.wireframe{
+  width: 100%;
+}
+
+.UI-elements{
+  margin: 50px;;
+}
+
+.style-heading{
+  text-align: center;
+vertical-align: middle;
+line-height: 100px;  
+}
+
+.colour-name{
+  text-align: center;
+vertical-align: middle;
+line-height: 100px;   
+margin-top: auto;
+}
+
+.colours{
+  column-count: 6;
+}
+
+#colour1{
+  border-radius: 50px;
+  background-color: #A46A7E;
+  height: 100px;
+  width: 100px;
+}
+
+#colour2{
+  border-radius: 50px;
+  background-color: #2A0C4E;
+  height: 100px;
+  width: 100px;
+}
+
+#colour3{
+  border-radius: 50px;
+  background-color: #95668D;
+  height: 100px;
+  width: 100px;
+}
+#colour4{
+  border-radius: 50px;
+  background-color: #CA93AC;
+  height: 100px;
+  width: 100px;
+}
+
+#colour5{
+  border-radius: 50px;
+  background-color: #E5AABC;
+  height: 100px;
+  width: 100px;
+}
+
+#colour6{
+  border-radius: 50px;
+  background-color: #FFC0CB;
+  height: 100px;
+  width: 100px;
+}
+
+
+
+#hover-font{
+  font-size: 15px;
+  font-weight: normal;
+  padding: 5px;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 body {
     padding: 0px;
     margin: 0px;
     font-size: 15px;
     min-height: 130vh;
-    font-family: 'PT Serif', serif;
+    font-family: 'Merriweather Sans', sans-serif;;
    background-size: cover;
    background-color: #F6F1ED;
   }
 
+  #style-sheet{
+    color: black;
+  }
+
+  #big-font{
+    font-family: 'Merriweather Sans', sans-serif;;
+font-size: 70px;
+font-weight: bold;
+margin: 10px;
+color: black;
+  }
+  
+  #big-fontB1{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+    
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+      }
+
+
+  #mid2-font{
+    font-size: 30px;
+    margin: 10px;
+    color: black;
+  }
+
+  #mid-font{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    color: black;
+  }
+
+  #small-font {
+    font-size: 15px;
+    margin: 10px;
+    color: black;
+    
+  }
+
   #tertiary-body {
-    color: #A46A7E;
+    color: #2A0C4E;
    
   }
 
@@ -24,9 +164,10 @@ body {
     padding-right: 10%;
     gap: 5px;
     padding-top: 5%;
-    
-    
   }
+
+
+
 
   .grid-item{
     background-size: cover;
@@ -78,6 +219,14 @@ body {
     background-image: url(/Images/purple.webp);
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
   }
 
   #week7 {
@@ -155,7 +304,7 @@ body {
   }
 
   #secondary-body{
-    color: #D56F5F;
+    color: #2A0C4E;
     background-color: #f1f1f1;
     align-items: center;
   }
@@ -268,6 +417,12 @@ body {
   #hamburger-input{
     display: none;
   }
+
+  #hamb{
+      height: 80px;
+      width: 60px;
+      margin: 20px;
+  }
   
   #hamburger-menu {
       position: absolute;
@@ -279,7 +434,7 @@ body {
       border: none;
       padding: 0px;
       margin: 0px;
-      font-family: 'Inter', sans-serif;
+      font-family: 'PT Serif', sans-serif;
       background: linear-gradient(
         to bottom, 
         black, black 20%, 
