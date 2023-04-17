@@ -1,7 +1,7 @@
 // Production nav
  const navigationData = [
    { title: "Home", link: "https://brendonmustdie.github.io/InteractiveMediaIV/index.html" },
-    { title: "Blog posts", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Blogs/blog-posts.html" },
+    { title: "Blog posts", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Blog/blog-posts.html" },
    { title: "Design Page", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Pages/design.html"},
      { title: "Obsess", link: "https://brendonmustdie.github.io/InteractiveMediaIV/Pages/ocd-sim.html" },
     ];

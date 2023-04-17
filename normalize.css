@@ -62,51 +62,51 @@ body {
 
 
   #week3, #home-des {
-    background-image: url(Images/ricecakes.webp);
+    background-image: url(Src/ricecakes.webp);
   }
 
   #week4, #art-des{
-    background-image: url(Images/allsorts.webp) ;
+    background-image: url(Src/) ;
   }
 
   #week5, #blog-des{
-    background-image: url(Images/Macroons.webp);
+    background-image: url(Src/Macroons.webp);
     background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   }
 
   #week6 {
-    background-image: url(Images/purple.webp);
+    background-image: url(Src/purple.webp);
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
   }
 
   #week7 {
-    background-image: url(Images/pink.webp);
+    background-image: url(Src/);
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
   }
 
   #week8 {
-    background-image: url(Images/blue.webp);
+    background-image: url(Src/blue.webp);
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
   }
 
   #week9 {
-    background-image: url(Images/red.webp);
+    background-image: url(Src/red.webp);
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
   }
 
   #week10 {
-    background-image: url(Images/smarties-organized.webp);
+    background-image: url(Src/smarties-organized.webp);
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
   }
 
   #week11 {
-    background-image: url(Images/red-smarties.webp);
+    background-image: url(Src/red-smarties.webp);
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
   }
@@ -121,7 +121,7 @@ body {
 
   .article-h1{
     color: #f1f1f1;
-    background-image: url(Images/pink.webp);
+    background-image: url(Src/pink.webp);
     background-color: rgba(0, 0, 0, 0.4);
     background-size: cover;
     text-align: left;
@@ -139,7 +139,7 @@ body {
   }
 
   #tertiary-body h1{
-    background-image: url(Images/pink.webp);
+    background-image: url(Src/);
     color: #F6F1ED;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -154,7 +154,7 @@ body {
   .main-body{
     color: white;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-    background-image: url(Images/pinkhearts.jpg);
+    background-image: url(Src/pinkhearts.jpg);
    
   }
 
