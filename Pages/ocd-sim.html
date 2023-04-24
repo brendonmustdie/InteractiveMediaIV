@@ -17,9 +17,11 @@
     <title>Obsess</title>
     <link rel="stylesheet" href="../Src/work-around.css" />
     <link rel="stylesheet" href="work-around.css" />
+    <link rel="stylesheet" href="pop-up.css">
   </head>
 
   <body id="secondary-body">
+  
     <header>
       <nav id="main-menu2" class="navigation"></nav>
 
@@ -33,8 +35,7 @@
       <p>By Kendra Cherry, reviewed by Rachel Goldman, PhD, FTOS</h2>
       <p class="date">August 10, 2022</p>
 
-      <p>Click the following button to see the function in action</p>  
-<input type = "button" onclick = "basicPopup(www.google.com)" value = "Display">  
+
       <h2>What is CBT?</h2>
       <p>
         Cognitive behavioral therapy (CBT) is a type of psychotherapeutic
@@ -175,10 +176,22 @@
 <p>Once the therapist has a better idea of who you are, the challenges you face, and your goals for cognitive behavioral therapy, they can help you increase your awareness of the thoughts and beliefs you have that are unhelpful or unrealistic. Next, strategies are implemented to help you develop healthier thoughts and behavior patterns.</p>
 <p>During later sessions, you will discuss how your strategies are working and change the ones that aren't. Your therapist may also suggest cognitive behavioral therapy techniques you can do yourself between sessions, such as journaling to identify negative thoughts or practicing new skills to overcome your anxiety.</p>
 
+<div id="trans">
 
+  <div id="pop-up-template" class="pop-up">
+    <h2 id="pop-up-heading">Test Heading</h2>
+    <p id="pop-up-text">This is a test paragraph</p>
+    <div class="pop-up-buttons">
+      <button id="pop-up-button-okay">okay</button>
+      <button id="pop-up-button-stop">STOP</button>
+    </div>
+
+  </div>
+</div>
 </div>
 
     <footer></footer>
+    <script src="pop-up.js"></script>
     <script src="../navigation.js"></script>
     <script src="../pop-up.js"></script>
   </body>
